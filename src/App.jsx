@@ -8,6 +8,7 @@ import Hero from "./components/Hero/Hero";
 import Partners from "./components/Partners";
 import TradeYield from "./components/TradeYield";
 import Onboard from "./components/Onboard";
+import Magic from "./components/Magic/Magic";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Partners />
       <TradeYield/>
       <Onboard/>
+      <Magic/>
     </>
   );
 }

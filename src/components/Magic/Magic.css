@@ -1,0 +1,43 @@
+.magic{
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+.magic-head{
+    text-align: center;
+    margin: auto;
+}
+
+.magic-head h1 {
+    padding-bottom: 20px;
+    font-size: 64px;
+    line-height: 51px;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+}
+
+.magic-head p{
+    padding-bottom: 32px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    width: 60%;
+    margin: auto;
+}
+.magic-btn button {
+    background: linear-gradient(90deg, #28a9a3, #6BB1FF);
+    padding: 20px 32px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 0 solid transparent;
+    font-weight: 500;
+    align-items: center;
+    box-shadow: 0 6px 12px 0 rgba(26, 83, 240, 0.25);
+    color: #FFFFFF;
+}
+.chart-json{
+    margin-top: 40px;
+    padding-top: 130px;
+    padding-bottom: 160px;
+    background-color: #b1b1b1
+}
