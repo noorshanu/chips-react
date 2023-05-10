@@ -1,0 +1,34 @@
+.partner-logos{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin: auto;
+    width: 80%;
+    gap: 3rem;
+    text-align: center;
+}
+.partner-logos img{
+    width: 150px;
+}
+
+.partners{
+    padding-top: 8rem;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.partner-header p{
+
+    font-size: 16px !important;
+    margin-bottom: 30px !important;
+    color: #9B97B3 !important;
+    letter-spacing: 1px !important;
+    border: none;
+    margin: calc(2rem - 0.14285714em) 0 1rem;
+    padding: 0 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    text-transform: none;
+
+}

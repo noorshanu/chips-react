@@ -3,8 +3,7 @@
 }
 
 .hero-text{
-    display: flex;
-    justify-content: center;
+   
     text-align: center;
     margin: auto;
     width: 80%;
@@ -13,11 +12,72 @@
 .hero-text h1{
     color: #1d144f;
     font-size: 90px ;
-    font-weight: 600 !important;
+    font-weight: 600  ;
     line-height: 90px ;
     width: 80% ;
     margin-left: auto ;
     margin-right: auto ;
     margin-top: 30px ;
     margin-bottom: 35px ;
+}
+
+.hero-text p{
+    color: #9B97B3 ;
+    line-height: 1.5 ;
+    font-size: 32px ;
+    width: 80% ;
+    margin-bottom: 58px ;
+    margin-top: 20px ;
+    margin-left: auto ;
+    margin-right: auto  ;
+}
+
+.hero-txt-btn{
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.hero-txt-btn button {
+    -webkit-box-pack: center  ;
+    -ms-flex-pack: center  ;
+    -webkit-box-align: center  ;
+    -ms-flex-align: center  ;
+    -webkit-box-direction: normal  ;
+    -webkit-box-orient: horizontal  ;
+    display: -webkit-inline-box  ;
+    display: -moz-inline-box  ;
+    display: -ms-inline-flexbox  ;
+    display: -webkit-inline-flex  ;
+    display: inline-flex  ;
+    -webkit-flex-direction: row  ;
+    -ms-flex-direction: row  ;
+    flex-direction: row  ;
+    -webkit-align-items: center  ;
+    align-items: center  ;
+    box-shadow: 0 6px 12px 0 rgba(26, 83, 240, 0.25)  ;
+    color: #FFFFFF  ;
+    cursor: pointer  ;
+    padding: 20px 32px  ;
+    background: -webkit-linear-gradient(90deg, #28a9a3, #68a7ee)  ;
+    background: -moz-linear-gradient(90deg, #28a9a3, #6BB1FF)  ;
+    background: linear-gradient(90deg, #28a9a3, #6BB1FF)  ;
+    border-radius: 40px  ;
+    border: 0 solid transparent;
+    font-weight: 500  ;
+    -webkit-transition: 0.2s  ;
+    -moz-transition: 0.2s  ;
+    transition: 0.2s  ;
+    font-size: 20px  ;
+    width: 296px  ;
+    height: 70px  ;
+    
+    justify-content: center  ;
+}
+
+.hero-txt-btn button:hover {
+    -webkit-transform: scale(1.03) !important;
+    -ms-transform: scale(1.03) !important;
+    transform: scale(1.03) !important;
+    box-shadow: 0 6px 18px 0 rgba(26, 83, 240, 0.25)
 }
