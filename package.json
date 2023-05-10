@@ -1,33 +1,27 @@
 {
-  "name": "react-nextjs",
-  "version": "0.0.0",
+  "name": "chips-react",
   "private": true,
-  "repository": "twbs/examples",
-  "license": "MIT",
-  "stackblitz": {
-    "startCommand": "npm start"
-  },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "next build",
-    "start": "next dev",
-    "lint": "next lint",
-    "fix": "next lint --fix",
-    "test": "npm run build"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@types/node": "^18.16.3",
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.1",
-    "bootstrap": "^5.2.3",
-    "next": "^13.3.2",
+    "bootstrap": "5.3.0-alpha3",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.7.4",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.0.4"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.39.0",
-    "eslint-config-next": "^13.3.2",
-    "sass": "^1.62.1"
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.2"
   }
 }

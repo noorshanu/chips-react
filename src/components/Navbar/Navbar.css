@@ -1,0 +1,29 @@
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.logo-box img{
+    height: 45px;
+    width: auto;
+}
+
+.sub-menu{
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    text-decoration: none;
+}
+.sub-menu li{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
