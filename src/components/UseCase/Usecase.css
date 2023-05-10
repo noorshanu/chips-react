@@ -10,3 +10,16 @@
     display: grid;
     grid-template-columns: repeat(6,auto);
 }
+
+.usecase_box h2 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    padding-bottom: 15px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.usecase_box {
+    text-align: center;
+}

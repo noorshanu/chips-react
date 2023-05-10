@@ -18,23 +18,29 @@ function UseCase() {
         <div className="useCase-grid">
           <div className="usecase_box">
             <img src={Image_1} alt="" />
+            <h2>Payment</h2>
           </div>
 
           <div className="usecase_box">
             <img src={Image_2} alt="" />
+            <h2>Lending/ Borrowing</h2>
           </div>
 
           <div className="usecase_box">
             <img src={Image_3} alt="" />
+            <h2>Games & NFT markets</h2>
           </div>
           <div className="usecase_box">
             <img src={Image_4} alt="" />
+            <h2>Universal wallets</h2>
           </div>
           <div className="usecase_box">
             <img src={Image_5} alt="" />
+            <h2>Bridges</h2>
           </div>
           <div className="usecase_box">
             <img src={Image_6} alt="" />
+            <h2>DEX</h2>
           </div>
         </div>
       </div>
