@@ -9,6 +9,7 @@ import Partners from "./components/Partners";
 import TradeYield from "./components/TradeYield";
 import Onboard from "./components/Onboard";
 import Magic from "./components/Magic/Magic";
+import UseCase from "./components/UseCase/UseCase";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <TradeYield/>
       <Onboard/>
       <Magic/>
+      <UseCase/>
     </>
   );
 }
