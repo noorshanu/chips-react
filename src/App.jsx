@@ -3,9 +3,11 @@
 // import viteLogo from '/vite.svg'
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
+import './style/trade.css'
 import Hero from "./components/Hero/Hero";
 import Partners from "./components/Partners";
 import TradeYield from "./components/TradeYield";
+import Onboard from "./components/Onboard";
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Hero />
       <Partners />
       <TradeYield/>
+      <Onboard/>
     </>
   );
 }

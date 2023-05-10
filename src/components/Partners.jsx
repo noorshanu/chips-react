@@ -13,7 +13,7 @@ import Logo_8 from "../assets/partners/sw-capital-logo.png";
 function Partners() {
   return (
     <section className="partners">
-      <div className="conatiner m-auto text-center ">
+      <div className="container m-auto text-center ">
         <div className="partner-header">
           <p>Trusted by</p>
         </div>
