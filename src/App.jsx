@@ -10,6 +10,7 @@ import TradeYield from "./components/TradeYield";
 import Onboard from "./components/Onboard";
 import Magic from "./components/Magic/Magic";
 import UseCase from "./components/UseCase/UseCase";
+import Benefit from "./components/Benefit/Benefit";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Onboard/>
       <Magic/>
       <UseCase/>
+      <Benefit/>
     </>
   );
 }

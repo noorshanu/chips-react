@@ -1,0 +1,25 @@
+.benefit-grid{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-between;
+    gap: 2rem;
+}
+.benefit-box{
+    text-align: center;
+}
+
+.benefit-box{
+    margin: 4%;
+}
+
+.benefit-box h2{
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 38px;
+
+}
+
+.benefit-box p {
+    font-size: 16px;
+    font-weight: 300;
+}
