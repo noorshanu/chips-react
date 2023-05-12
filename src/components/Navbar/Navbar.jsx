@@ -35,6 +35,20 @@ function navbar() {
               </div>
           </div>
         </div>
+        <div className='nav-mob-menu'>
+        <div className='desktop-menu' >
+              <ul className='d-flex sub-menu'>
+              <li>Home</li>
+
+              <li>Blog</li>
+              <li>Docs</li>
+              <li>Tokenomics</li>
+              <li>Contact</li>
+              <li> <button className='nav-btn'>Connect</button></li>
+              </ul> 
+              </div>
+
+        </div>
       </nav>
     </>
   );

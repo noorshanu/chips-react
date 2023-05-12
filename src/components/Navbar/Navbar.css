@@ -1,3 +1,7 @@
+nav{
+    position: relative;
+}
+
 .nav-menu{
     display: flex;
 
@@ -47,7 +51,22 @@
 .desktop-menu{
     display: block;
 }
+
+.hamburger button {
+    background-color: #28a9a3;
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.nav-mob-menu{
+    display: none;
+}
 @media (max-width:768px) {
+    .show{
+        display: block !important;
+    }
+    
     .hamburger{
         display: block;
     }
