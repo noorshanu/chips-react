@@ -1,8 +1,15 @@
 import Logo from  '../../assets/logo.png';
 import './Navbar.css'
 import {BiMenuAltLeft} from 'react-icons/bi'
+import {AiOutlineCloseCircle} from 'react-icons/ai'
+import { useState } from 'react';
 
 function navbar() {
+  const [showMenu , setShowMenu] = useState(false);
+
+  const handleClick = () =>{
+    setShowMenu(!showMenu)
+  }
   return (
     <>
       <nav>
@@ -28,15 +35,16 @@ function navbar() {
               </div>
 
               <div className='hamburger'>
-                <button>
+                <button onClick={handleClick}>
                    
                 <BiMenuAltLeft/>
                 </button>
               </div>
           </div>
         </div>
-        <div className='nav-mob-menu'>
-        <div className='desktop-menu' >
+        <div className={showMenu ?'show' : 'nav-mob-menu'}>
+          <AiOutlineCloseCircle/>
+        <div className='' >
               <ul className='d-flex sub-menu'>
               <li>Home</li>
 
