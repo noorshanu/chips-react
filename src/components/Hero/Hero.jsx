@@ -2,7 +2,7 @@ import "./Hero.css";
 import {AiOutlineArrowRight} from 'react-icons/ai'
 function Hero() {
   return (
-    <section className="py-10">
+    <section className="hero-section">
       <div className="container">
         <div className="hero-text">
           <h1>
