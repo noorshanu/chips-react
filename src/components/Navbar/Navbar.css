@@ -27,3 +27,10 @@
     text-transform: capitalize;
 
 }
+.nav-btn{
+    background: linear-gradient(90deg, #28a9a3, #6BB1FF);
+    padding: 8px 24px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid transparent;
+}

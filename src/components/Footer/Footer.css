@@ -1,6 +1,6 @@
 footer{
-    margin-top: 5rem;
-    background-color: #000;
+   
+    background-color: #1E1E1E;
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
@@ -8,14 +8,21 @@ footer{
 .logo-foot img {
     height: 45px;
     width: auto;
+    margin-bottom: 20px;
 }
-
+.logo-foot p{
+    color: #cccccc;
+}
 .social-media-footer{
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
-
+.social-media-footer a{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
 .foot-links{
     display: flex;
     flex-direction: column;

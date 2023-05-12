@@ -14,15 +14,15 @@ function navbar() {
               <ul className='d-flex sub-menu'>
               <li>Home</li>
 
-              <li>Home</li>
-              <li>Home</li>
-              <li>Home</li>
-              <li>Home</li>
+              <li>Blog</li>
+              <li>Docs</li>
+              <li>Tokenomics</li>
+              <li>Contact</li>
 
               </ul> </div>
 
               <div>
-                <button>Connect</button>
+                <button className='nav-btn'>Connect</button>
               </div>
           </div>
         </div>

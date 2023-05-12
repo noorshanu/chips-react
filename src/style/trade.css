@@ -56,3 +56,32 @@
     margin-right: auto  ;
     font-weight: 300;
 }
+
+/* wishlist */
+.wishlist{
+    background-color: #e7fde2;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.form-box{
+    margin: auto;
+    width: 60%;
+
+}
+.form-box form {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    /* padding: 1%; */
+    padding-left: 3px;
+    padding-bottom: 1rem;
+}
+.form-box form button {
+    padding: 8px 32px;
+    border-radius: 20px;
+}
+
+.form-box form input {
+    background-color: transparent;
+    border: none;
+}
