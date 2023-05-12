@@ -1,80 +1,99 @@
-nav{
-    position: relative;
+nav {
+  position: relative;
 }
 
-.nav-menu{
-    display: flex;
+.nav-menu {
+  display: flex;
 
-    justify-content: space-between;
-    padding-top: 1rem;
-    align-items: center;
-    padding-bottom: 0.5rem;
-}
-
-.logo-box img{
-    height: 45px;
-    width: auto;
+  justify-content: space-between;
+  padding-top: 1rem;
+  align-items: center;
+  padding-bottom: 0.5rem;
 }
 
-.sub-menu{
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-}
-.sub-menu li{
-    list-style: none;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    text-transform: capitalize;
-
-}
-.nav-btn{
-    background: linear-gradient(90deg, #28a9a3, #6BB1FF);
-    padding: 8px 24px;
-    border-radius: 20px;
-    color: #fff;
-    border: 1px solid transparent;
+.logo-box img {
+  height: 45px;
+  width: auto;
 }
 
-.hamburger{
-    display: none;
+.sub-menu {
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+.sub-menu li {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.nav-btn {
+  background: linear-gradient(90deg, #28a9a3, #6bb1ff);
+  padding: 8px 24px;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid transparent;
 }
 
-.nav-btn-box{
-    display: block;
+.hamburger {
+  display: none;
 }
-.desktop-menu{
-    display: block;
+
+.nav-btn-box {
+  display: block;
+}
+.desktop-menu {
+  display: block;
 }
 
 .hamburger button {
-    background-color: #28a9a3;
-    padding: 6px 14px;
-    border-radius: 10px;
-    font-size: 18px;
+  background-color: #28a9a3;
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-size: 18px;
 }
 
-.nav-mob-menu{
+.nav-mob-menu {
+  display: none;
+}
+.close{
+    color: #fff;
+    font-size: 22px;
+}
+@media (max-width: 768px) {
+  .show {
+    display: block !important;
+    position: absolute;
+    background: #000;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    width: 221px;
+    padding: 30px;
+    transition: 0.3ms ease-in;
+  }
+  .sub-menu {
+    flex-direction: column;
+  }
+  .sub-menu li{
+    color: #fff;
+  }
+  .hamburger {
+    display: block;
+  }
+  .nav-btn-box {
     display: none;
-}
-@media (max-width:768px) {
-    .show{
-        display: block !important;
-    }
-    
-    .hamburger{
-        display: block;
-    }
-    .nav-btn-box{
-        display: none;
-    }
+  }
 
-    .desktop-menu{
-        display: none;
-    }
+  .desktop-menu {
+    display: none;
+  }
+  .close-box{
+    text-align: end;
+  }
 }

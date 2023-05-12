@@ -43,7 +43,11 @@ function navbar() {
           </div>
         </div>
         <div className={showMenu ?'show' : 'nav-mob-menu'}>
-          <AiOutlineCloseCircle/>
+          <div className='close-box'>
+
+          <AiOutlineCloseCircle onClick={()=>(setShowMenu(false))} className='close'/>
+          </div>
+
         <div className='' >
               <ul className='d-flex sub-menu'>
               <li>Home</li>
