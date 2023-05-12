@@ -1,6 +1,6 @@
 .nav-menu{
-    display: grid;
-    grid-template-columns: repeat(3,auto);
+    display: flex;
+
     justify-content: space-between;
     padding-top: 1rem;
     align-items: center;
@@ -35,4 +35,27 @@
     border-radius: 20px;
     color: #fff;
     border: 1px solid transparent;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-btn-box{
+    display: block;
+}
+.desktop-menu{
+    display: block;
+}
+@media (max-width:768px) {
+    .hamburger{
+        display: block;
+    }
+    .nav-btn-box{
+        display: none;
+    }
+
+    .desktop-menu{
+        display: none;
+    }
 }

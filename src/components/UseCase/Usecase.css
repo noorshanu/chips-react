@@ -48,3 +48,24 @@
     border-bottom: 1px solid #000;
     padding: 18px 0px;
 }
+
+@media (max-width:768px) {
+    .usecase {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .useCase-grid {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 0.5rem;
+    }
+
+    .Investors-grid {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        width: 96%;
+        gap: 2rem;
+        margin: auto;
+    }
+    
+}

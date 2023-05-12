@@ -15,7 +15,7 @@ function Onboard() {
         </div>
       </div>
      <div className="text-center">
-        <img src={Onboard_img} alt=""/>
+        <img src={Onboard_img} alt="" className="im-1"/>
      </div>
     </section>
   );

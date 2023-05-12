@@ -1,5 +1,6 @@
 import Logo from  '../../assets/logo.png';
 import './Navbar.css'
+import {BiMenuAltLeft} from 'react-icons/bi'
 
 function navbar() {
   return (
@@ -10,7 +11,7 @@ function navbar() {
             <div className='logo-box'>
               <img src={Logo} alt="logo" />
             </div>
-            <div>
+            <div className='desktop-menu' >
               <ul className='d-flex sub-menu'>
               <li>Home</li>
 
@@ -19,10 +20,18 @@ function navbar() {
               <li>Tokenomics</li>
               <li>Contact</li>
 
-              </ul> </div>
+              </ul> 
+              </div>
 
-              <div>
+              <div className='nav-btn-box'>
                 <button className='nav-btn'>Connect</button>
+              </div>
+
+              <div className='hamburger'>
+                <button>
+                   
+                <BiMenuAltLeft/>
+                </button>
               </div>
           </div>
         </div>

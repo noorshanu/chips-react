@@ -18,7 +18,7 @@ function TradeYield() {
           </div>
 
           <div className="col-md-6 text-center">
-            <img src={Image_1} alt="" />
+            <img src={Image_1} alt=""  className="im-1"/>
           </div>
         </div>
       </div>

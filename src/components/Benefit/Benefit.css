@@ -23,3 +23,12 @@
     font-size: 16px;
     font-weight: 300;
 }
+
+@media (max-width:768px) {
+    .benefit-grid{
+      
+        grid-template-columns: repeat(1,auto);
+      
+    }
+    
+}

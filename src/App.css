@@ -32,3 +32,22 @@
     text-transform: none;
 
 }
+
+@media (max-width:768px) {
+    .partners {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+    .partner-logos {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        margin: auto;
+        width: 100%;
+        gap: 3rem;
+        text-align: center;
+        padding: 8px;
+    }
+    
+}

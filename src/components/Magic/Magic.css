@@ -43,3 +43,36 @@
     padding-right: 8rem;
     background-color: #b1b1b1
 }
+
+@media (max-width:768px) {
+    .magic {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .magic-head h1 {
+        padding-bottom: 16px;
+        font-size: 47px;
+        line-height: 48px;
+        letter-spacing: 0.025em;
+        font-weight: 600;
+    }
+
+    .magic-head p {
+        padding-bottom: 32px;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.06em;
+        width: 100%;
+        margin: auto;
+    }
+    .chart-json {
+        margin-top: 40px;
+        padding-top: 67px;
+        padding-bottom: 67px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #b1b1b1;
+    }
+    
+}
