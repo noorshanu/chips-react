@@ -1,5 +1,7 @@
 import React from "react";
 import Logo from '../../assets/logo.png'
+import {BsTelegram,BsFacebook} from 'react-icons/bs'
+import {AiFillTwitterCircle} from 'react-icons/ai'
 import './Footer.css'
 function Footer() {
   return (
@@ -10,10 +12,10 @@ function Footer() {
             <div className="logo-foot">
                 <img src={Logo} alt="" />
                 <div className="social-media-footer">
-                    <a href="">twitter</a>
-                    <a href="">twitter</a>
-                    <a href="">twitter</a>
-                    <a href="">twitter</a>
+                    <a href=""><BsTelegram/></a>
+                    <a href=""><AiFillTwitterCircle/></a>
+                    <a href=""><BsFacebook/></a>
+               
 
                 </div>
             </div>
